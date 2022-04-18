@@ -6,9 +6,7 @@ A Really Fast, Stupid And Samll QuickJs Runtime
    gcc main.c -o main -lquickjs -lm -ldl -lcurl -lSDL2
 ```
 # Build QuickJs Using :
-   git clone https://github.com/bellard/quickjs
-   cd quickjs
-   make
+   git clone https://github.com/bellard/quickjs && cd quickjs && make
    - After Done execute ` make install ` to install the static library
    - to compile to shared library to make building Real.js faster:
      `` mkdir shared && cp *.o shared/ ``
