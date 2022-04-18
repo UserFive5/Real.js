@@ -24,7 +24,10 @@ A Really Fast, Stupid And Samll QuickJs Runtime
    ``Have No Files Import Right Now``
    `` Have require method to get module.exports from a file ``
 
-# So What IS This Project For?:
-   
+# So What IS This Project For? :
+   This Is Just A Simple Project That I Worked On
+   when I wanted to learn embedding JavaScript in c with quickjs
+   So this just got to me and build it And I Will Really Work on
+   To become a project that worth it!
 # Something Awesome :
 See Something Awesome : https://github.com/saghul/txiki.js
