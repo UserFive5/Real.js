@@ -27,7 +27,7 @@ A Really Fast, Stupid And Samll QuickJs Runtime
  # @real/fs :
      right now just read
 # @real/sys :
-     getenv ,setenv, environ , clearenv, popen (Read-Only )
+     getenv ,setenv, environ , clearenv, exit, popen (Read-Only )
 # @real/sdl2 :
      Empty Right Now
 # Info :
