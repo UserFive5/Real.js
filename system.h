@@ -77,6 +77,7 @@ static JSValue js_system_popen(JSContext *ctx,JSValueConst self,int argc,JSValue
 static const JSCFunctionListEntry js_system_functions[] = {
     JS_CFUNC_DEF("getenv",1,js_system_getenv),
     JS_CFUNC_DEF("setenv",1,js_system_setenv),
+    JS_CFUNC_DEF("clearenv",1,js_system_clearenv),
     JS_CFUNC_DEF("environ",1,js_system_environ),
     JS_CFUNC_DEF("popen",1,js_system_popen),
     JS_CFUNC_DEF("exit",1,js_system_exit),
