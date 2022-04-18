@@ -17,6 +17,9 @@ static JSValue js_system_setenv(JSContext *ctx,JSValueConst self,int argc,JSValu
     int res = setenv(name,value,1);
     return JS_NewInt32(ctx,res);
 }
+static JSValue js_system_clearenv(JSContext *ctx,JSValueConst self,int argc,JSValueConst *args) {
+    return JS_NewInt32(ctx,clearenv());
+}
 static JSValue js_system_environ(JSContext *ctx,JSValueConst self,int argc,JSValueConst *args) {
     char **envp;
     const char *name, *p, *value;
