@@ -16,9 +16,15 @@ A Really Fast, Stupid And Samll QuickJs Runtime
    `` only fetch with no Utils ``
  # @real/fs :
      right now just read
- # @real/sys :
+# @real/sys :
      getenv ,setenv, environ , popen (Read-Only )
- # @real/sdl2 :
+# @real/sdl2 :
      Empty Right Now
+# Info :
+   ``Have No Files Import Right Now``
+   `` Have require method to get module.exports from a file ``
+
+# So What IS This Project For?:
+   
 # Something Awesome :
 See Something Awesome : https://github.com/saghul/txiki.js
